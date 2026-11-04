@@ -37,6 +37,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.painter.ColorPainter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextOverflow
@@ -48,6 +49,7 @@ import com.animewalls.app.domain.model.Wallpaper
 import com.animewalls.app.ui.theme.AccentPink
 import com.animewalls.app.ui.theme.AccentRed
 import com.animewalls.app.ui.theme.Hairline
+import com.animewalls.app.ui.theme.SurfaceHigh
 import com.animewalls.app.ui.theme.SurfaceMid
 import com.animewalls.app.ui.theme.TextPrimary
 import com.animewalls.app.ui.theme.TextSecondary
@@ -82,6 +84,8 @@ fun WallpaperCard(
                 .build(),
             contentDescription = wallpaper.title,
             contentScale = ContentScale.Crop,
+            placeholder = ColorPainter(SurfaceHigh),
+            error = ColorPainter(SurfaceMid),
             modifier = Modifier.fillMaxSize(),
         )
 

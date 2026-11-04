@@ -44,6 +44,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.painter.ColorPainter
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
@@ -99,6 +100,8 @@ fun DetailScreen(
                     .build(),
                 contentDescription = current.title,
                 contentScale = ContentScale.Crop,
+                placeholder = ColorPainter(SurfaceHigh),
+                error = ColorPainter(SurfaceMid),
                 modifier = Modifier.fillMaxSize(),
             )
             Box(
