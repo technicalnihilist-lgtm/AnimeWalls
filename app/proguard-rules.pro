@@ -1,0 +1,6 @@
+-keep class com.animewalls.app.data.remote.dto.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn retrofit2.**

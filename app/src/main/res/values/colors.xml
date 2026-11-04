@@ -1,0 +1,5 @@
+<resources>
+    <color name="amoled_black">#FF000000</color>
+    <color name="accent_red">#FFE23E57</color>
+    <color name="ic_launcher_background">#FF0A0A0C</color>
+</resources>
