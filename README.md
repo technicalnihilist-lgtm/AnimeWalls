@@ -171,3 +171,17 @@ di/             ServiceLocator (hand-rolled, no reflection)
 AnimeWalls is not affiliated with Wikimedia, any anime studio or publisher.
 Image rights remain with their respective authors; the app only ever displays
 material whose licence permits redistribution, with attribution.
+
+---
+
+## ☕ Donate / Buy me a coffee
+
+**Coming soon** — our donation options are on the way.
+
+| Platform | Status |
+| --- | --- |
+| Paytm | Coming soon |
+| PayPal | Coming soon |
+| GPay (Google Pay) | Coming soon |
+
+If you like our work, you can support us with a donation. We are bringing this very soon — **coming soon**.
